@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 0rem 1rem 0rem 1rem ;
+}
+
+header h1 {
+    display: inline;
+    margin-right: 1rem;
+}
+
+
+.gradiente {
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 85px 20% 0px 20%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+.contenedorminutero
+{
+    height: auto;
+    background-color: #27292a;
+    margin: 2px 4px 2px 4px;
+    font-size: 4.8vw;
+    border: 5px solid #d8ee62;
+    display: inline;
+}
+
+.textodeabajo
+{
+    font-size: 3vh;
+    color: #d8ee62;
+}
+
+h3
+{
+    background-color: #1e1d05b8;
+    color:#d8ee62;
+    font: oblique bold 150% cursive;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+  }
+
+img {
+    width: 100%;
+    height: 70vh;
+    border-radius: 15px;
+    object-fit: oblique bold;
+  }
+
+@media screen and (max-width: 800px) {
+    .contenedorminutero {
+      font-size: 9vw;
+      margin: 0px 0px 0px 0px;
+       /* Ajustar el tamaño de fuente para pantallas más pequeñas */
+    }
+
+    .celanuncion
+    {
+        font-size: 2px;
+    }
+
+    .limg {      
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+      }
+
+      .textodeabajo
+      {
+          font-size: 1vh;
+      }
+
+      .desaparecer
+      {
+        display: none;
+      }
+  }
+
+
+
+
+nav ul {
+    display: inline;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.popular-dishes,
+.customer-favorites,
+.newsletter {
+    padding: 1rem;
+}
+
+.popular-dishes h2,
+.customer-favorites h2,
+.newsletter h2 {
+    margin-bottom: 1rem;
+}
+
+.popular-dishes ul,
+.customer-favorites ul {
+    list-style: none;
+    padding: 0;
+}
+
+.popular-dishes li,
+.customer-favorites li {
+    margin-bottom: 0.5rem;
+}
+
+.newsletter form {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.newsletter input {
+    flex: 1;
+    padding: 0.5rem;
+}
+
+.newsletter button {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
